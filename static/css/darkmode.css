@@ -1,0 +1,52 @@
+/* 다크 모드 스타일 */
+body.dark-mode *{
+    background: #121212;
+    color: #e0e0e0;
+    
+}
+body.dark-mode .sidebar{
+    border-right:1px solid #303030;
+}
+
+.dark-mode a{
+    transition: background 0s, color 0s;
+}
+
+.dark-mode a:hover *{
+    background:#dddddd;
+    color:#121212;
+}
+
+.dark-mode .top-line-personal-info img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border: 2px solid #eeeeee;
+    background: #dddddd;    
+}
+/* 메인 화면 상단 바 */
+.dark-mode #mainTopLineBtnSet button.btn-light *{
+    /* transition: 0s;
+    transition-delay: 0ms; */
+}
+.dark-mode #mainTopLineBtnSet button.btn-outline-light *{
+    /* background:#f8f9fa;
+    color:#121212; */
+}
+
+.dark-mode #mainTopLineBtnSet button.btn-light{
+    transition: background 0s;
+}
+
+.dark-mode #mainTopLineBtnSet button.btn-outline-light{
+    transition: background 0s;
+}
+
+.dark-mode #mainTopLineBtnSet button.btn-light:hover *{
+    background:#d3d4d5;
+    color:#121212;
+}
+.dark-mode #mainTopLineBtnSet button.btn-outline-light:hover *{
+    background:#f8f9fa;
+    color:#121212;
+}

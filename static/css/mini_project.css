@@ -1,0 +1,927 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 300px;
+}
+
+.container1 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 1s, width 1s, height 1s;
+    position: relative;
+    transform-origin: top left;
+}
+
+.container1:hover {
+    z-index: 1;
+    overflow: auto;
+    transform: scale(1.5);
+}
+
+.container1:hover .box2 {
+    display: block;
+    border-top: 1px solid black;
+}
+
+.container2 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 1s, width 1s, height 1s;
+    position: relative;
+    transform-origin: top;
+}
+
+.container2:hover {
+    z-index: 1;
+    overflow: auto;
+    transform: scale(1.5);
+}
+
+.container2:hover .box2 {
+    display: block;
+}
+
+.container3 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 1s, width 1s, height 1s;
+    position: relative;
+    transform-origin: top right;
+}
+
+.container3:hover {
+    z-index: 1;
+    overflow: auto;
+    transform: scale(1.5);
+}
+
+.container3:hover .box2 {
+    display: block;
+}
+
+.container4 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 1s, width 1s, height 1s;
+    position: relative;
+    transform-origin: top left;
+}
+
+.container4:hover {
+    z-index: 1;
+    overflow: auto;
+    transform: scale(1.5);
+}
+
+.container4:hover .box2 {
+    display: block;
+}
+
+.container5 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 1s, width 1s, height 1s;
+    position: relative;
+    transform-origin: top;
+}
+
+.container5:hover {
+    z-index: 1;
+    overflow: auto;
+    transform: scale(1.5);
+}
+
+.container5:hover .box2 {
+    display: block;
+}
+
+.container6 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 1s, width 1s, height 1s;
+    position: relative;
+    transform-origin: top right;
+}
+
+.container6:hover {
+    z-index: 1;
+    overflow: auto;
+    transform: scale(1.5);
+}
+
+.container6:hover .box2 {
+    display: block;
+}
+
+.container7 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 1s, width 1s, height 1s;
+    position: relative;
+    transform-origin: top left;
+}
+
+.container7:hover {
+    z-index: 1;
+    overflow: auto;
+    transform: scale(1.5);
+}
+
+.container7:hover .box2 {
+    display: block;
+}
+
+.container8 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 1s, width 1s, height 1s;
+    position: relative;
+    transform-origin: top;
+}
+
+.container8:hover {
+    z-index: 1;
+    overflow: auto;
+    transform: scale(1.5);
+}
+
+.container8:hover .box2 {
+    display: block;
+}
+
+.container9 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 1s, width 1s, height 1s;
+    position: relative;
+    transform-origin: top right;
+}
+
+.container9:hover {
+    z-index: 1;
+    overflow: auto;
+    transform: scale(1.5);
+}
+
+.container9:hover .box2 {
+    display: block;
+}
+
+.container10 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 1s, width 1s, height 1s;
+    position: relative;
+    transform-origin: top left;
+}
+
+.container10:hover {
+    z-index: 1;
+    overflow: auto;
+    transform: scale(1.5);
+}
+
+.container10:hover .box2 {
+    display: block;
+}
+
+.container11 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 1s, width 1s, height 1s;
+    position: relative;
+    transform-origin: top;
+}
+
+.container11:hover {
+    z-index: 1;
+    overflow: auto;
+    transform: scale(1.5);
+}
+
+.container11:hover .box2 {
+    display: block;
+}
+
+.container12 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 1s, width 1s, height 1s;
+    position: relative;
+    transform-origin: top right;
+}
+
+.container12:hover {
+    z-index: 1;
+    overflow: auto;
+    transform: scale(1.5);
+}
+
+.container12:hover .box2 {
+    display: block;
+}
+
+.iframe-container {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation: showIframe 1.5s forwards;
+}
+
+.box {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.box2 {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: none;
+    background: rgb(24, 24, 24);
+    animation: showIframe 1.5s forwards;
+    padding: 20px;
+}
+
+.box2 button{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+}
+
+.box2 p {
+    color: white;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes showIframe {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.box:hover .iframe-container {
+    display: block;
+}
+
+
+
+.iframe-container iframe {
+    width: 100%;
+    height: 75%;
+    border: none;
+}
+
+ul.horizontal-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+}
+
+.box2 p {
+    color: white;
+    font-size: 15px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+ul.horizontal-list li {
+    margin-left: 18px;
+    color: white;
+    font-size: 14px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+ul.horizontal-list li:first-child {
+    list-style-type: none;
+}
+
+ul.horizontal-list li:last-child {
+    margin-right: 0;
+}
+
+.box>div:first-child {
+    height: 100%;
+}
+
+@media (max-width: 1270px) {
+    .container1 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top left;
+    }
+
+    .container1:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scale(1.5);
+    }
+
+    .container1:hover .box2 {
+        display: block;
+    }
+
+    .container2 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top right;
+    }
+
+    .container2:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scale(1.5);
+    }
+
+    .container2:hover .box2 {
+        display: block;
+    }
+
+    .container3 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top left;
+    }
+
+    .container3:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scale(1.5);
+    }
+
+    .container3:hover .box2 {
+        display: block;
+    }
+
+    .container4 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top right;
+    }
+
+    .container4:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scale(1.5);
+    }
+
+    .container4:hover .box2 {
+        display: block;
+    }
+
+    .container5 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top left;
+    }
+
+    .container5:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scale(1.5);
+    }
+
+    .container5:hover .box2 {
+        display: block;
+    }
+
+    .container6 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top right;
+    }
+
+    .container6:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scale(1.5);
+    }
+
+    .container6:hover .box2 {
+        display: block;
+    }
+
+    .container7 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top left;
+    }
+
+    .container7:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scale(1.5);
+    }
+
+    .container7:hover .box2 {
+        display: block;
+    }
+
+    .container8 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top right;
+    }
+
+    .container8:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scale(1.5);
+    }
+
+    .container8:hover .box2 {
+        display: block;
+    }
+
+    .container9 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top left;
+    }
+
+    .container9:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scale(1.5);
+    }
+
+    .container9:hover .box2 {
+        display: block;
+    }
+
+
+    .container10 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top right;
+    }
+
+    .container10:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scale(1.5);
+    }
+
+    .container10:hover .box2 {
+        display: block;
+    }
+
+    .container11 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top left;
+    }
+
+    .container11:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scale(1.5);
+    }
+
+    .container11:hover .box2 {
+        display: block;
+    }
+
+    .container12 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top right;
+    }
+
+    .container12:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scale(1.5);
+    }
+
+    .container12:hover .box2 {
+        display: block;
+    }
+
+    .iframe-container {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        animation: showIframe 1.5s forwards;
+    }
+}
+
+@media (max-width: 845px) {
+    .container1 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top;
+    }
+
+    .container1:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scaleY(1.1);
+    }
+
+    .container1:hover .box2 {
+        display: block;
+    }
+
+    .container2 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top;
+    }
+
+    .container2:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scaleY(1.1);
+    }
+
+    .container2:hover .box2 {
+        display: block;
+ 
+    }
+
+    .container3 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top;
+    }
+
+    .container3:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scaleY(1.1);
+    }
+
+    .container3:hover .box2 {
+        display: block;
+ 
+    }
+
+    .container4 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top;
+    }
+
+    .container4:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scaleY(1.1);
+    }
+
+    .container4:hover .box2 {
+        display: block;
+ 
+    }
+
+    .container5 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top;
+    }
+
+    .container5:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scaleY(1.1);
+    }
+
+    .container5:hover .box2 {
+        display: block;
+ 
+    }
+
+    .container6 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top;
+    }
+
+    .container6:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scaleY(1.1);
+    }
+
+    .container6:hover .box2 {
+        display: block;
+ 
+    }
+
+    .container7 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top;
+    }
+
+    .container7:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scaleY(1.1);
+    }
+
+    .container7:hover .box2 {
+        display: block;
+ 
+    }
+
+    .container8 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top;
+    }
+
+    .container8:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scaleY(1.1);
+    }
+
+    .container8:hover .box2 {
+        display: block;
+ 
+    }
+
+    .container9 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top;
+    }
+
+    .container9:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scaleY(1.1);
+    }
+
+    .container9:hover .box2 {
+        display: block;
+ 
+    }
+
+
+    .container10 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top;
+    }
+
+    .container10:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scaleY(1.1);
+    }
+
+    .container10:hover .box2 {
+        display: block;
+ 
+    }
+
+    .container11 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top;
+    }
+
+    .container11:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scaleY(1.1);
+    }
+
+    .container11:hover .box2 {
+        display: block;
+ 
+    }
+
+    .container12 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 1s, width 1s, height 1s;
+        position: relative;
+        transform-origin: top;
+    }
+
+    .container12:hover {
+        z-index: 1;
+        overflow: auto;
+        transform: scaleY(1.1);
+    }
+
+    .container12:hover .box2 {
+        display: block;
+ 
+    }
+}
